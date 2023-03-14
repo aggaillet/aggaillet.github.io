@@ -23,15 +23,7 @@
     background: var(--secondary);
 }
 
-.flex-container > div > p {
-    color: var(--tertiary);
-    max-width: 650px;
-    min-width: 10vw;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-#project-section-title{
+h2{
     color: var(--primary);
     font-family: var(--primary-font);
     font-size: 5vh;

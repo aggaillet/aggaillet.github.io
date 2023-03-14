@@ -34,7 +34,7 @@
     margin-top: -1.7vh;
 }
 
-#privacy-link:link{
+#privacy-link{
     color: var(--primary);
     text-decoration: none;
 }
