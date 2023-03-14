@@ -46,7 +46,7 @@ body::after {
 
 p {
     color: var(--tertiary);
-    max-width: min(630px, 55vw); 
+    max-width: min(630px, 100vw);
     min-width: 10vw;
     text-align: justify;
     text-justify: inter-word;
