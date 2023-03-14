@@ -3,7 +3,7 @@
 }
 
 #about-section-summary {
-    width: 40%;
+    width: min(630px, 80vw);
 }
 
 span {

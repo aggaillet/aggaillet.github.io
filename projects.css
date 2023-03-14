@@ -34,6 +34,7 @@ h2{
 
 .project-title{
     font-family: var(--secondary-font);
+    max-width: min(630px, 55vw);
     font-weight: 800;
     color: var(--secondary);
     font-size: 4vh;
@@ -44,7 +45,7 @@ h2{
 }
 
 .project-image{
-    max-width: 650px;
+    max-width: min(630px, 55vw);
     min-width: 10vw;
     object-fit: contain;
     border-width: 3px;
