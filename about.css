@@ -6,6 +6,11 @@
     width: min(630px, 80vw);
 }
 
+#about-section{
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
 span {
     color: var(--secondary);
     font-weight: bolder;
