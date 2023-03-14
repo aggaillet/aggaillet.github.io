@@ -1,0 +1,62 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    direction: ltr;
+}
+  
+.project {
+    background-color: var(--primary);
+    margin: 5vh;
+    padding: 5vh;
+    font-size: 3vh;
+    display: inline-block;
+    max-height: 855px;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+
+.project::-webkit-scrollbar {
+    width: 5px;
+}
+
+.project::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+}
+
+.flex-container > div > p {
+    color: var(--tertiary);
+    max-width: 650px;
+    min-width: 10vw;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#project-section-title{
+    color: var(--primary);
+    font-family: var(--primary-font);
+    font-size: 5vh;
+    line-height: 1;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+.project-title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    color: var(--secondary);
+    font-size: 4vh;
+}
+
+.logo{
+    height: 3vh;
+}
+
+.project-image{
+    max-width: 650px;
+    min-width: 10vw;
+    object-fit: contain;
+    border-width: 3px;
+    border-color: var(--tertiary);
+    border-style: solid;
+    padding: 0 0 0 0;
+}

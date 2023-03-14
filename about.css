@@ -1,0 +1,12 @@
+#about-content-div {
+    text-align: left;
+}
+
+#about-section-summary {
+    width: 40%;
+}
+
+span {
+    color: var(--secondary);
+    font-weight: bolder;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <title>Angelo G. Gaillet</title>
+    <link rel="icon" href="resources/favicon.png">
+    <meta property="og:type" content="Website" />
+    <meta name="author" content="Angelo G. Gaillet" />
+    <meta name="title" property="og:title" content="Angelo G. Gaillet" />
+    <meta name="description" content="Personal website of Angelo G. Gaillet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Custom CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" type="text/css" href="projects.css">
+    
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="row" id="navbar-row">
+                <ul class="navbar-nav">
+                    <a class="nav-link current" id="home-link" href="#home-section">
+                        <li class="nav-item">HOME</li>
+                    </a>
+                    <a class="nav-link external" id="about-link" href="#about-section">
+                        <li class="nav-item">ABOUT</li>
+                    </a>
+                    <a class="nav-link external" id="projects-link" href="#projects-section">
+                        <li class="nav-item">PROJECTS</li>
+                    </a>
+                </ul>
+            </div>
+            <div class ="row" id="navbar-right">
+                <ul class ="navbar-nav">
+                    <a class="nav-link external" id="contact-me" href="https://www.linkedin.com/in/ag-gaillet/">
+                        <li class="nav-item">CONTACT ME</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <div id="home-section" name="home">
+            <div id="home-content-div" class="content-div-class">
+                <h1 id="h1-hello-first-name">Angelo G</h1>
+                <h1 id="h1-hello-last-name">GAILLET</h1>
+            </div>
+        </div>
+    
+        <!-- About -->
+        <div id="about-section">
+            <div id="about-content-div" class="content-div-class">
+                <p id="about-section-summary">
+                    I'm Angelo, a Master student in <span>Aeronautics and Space</span> at <span>ENAC</span>, the french civil aviation university. I am specialized in <span>Systems and Software Engineering</span> applied to the Air Transport System.<br>
+                    As a long term side project I'm also pursuing a second Master in Computer Science and Engineering at Politecnico di Milano.<br>
+                    Interested in <span>avionics, control theory, multisensor systems, system safety, and V&V methods</span>. Other academic interests include robotics and  statistical methods.<br>
+                    French and italian origins.<br>
+                    Fascinated by human ingenuity.<br>
+                    Problem solver at heart.<br>
+                </p>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div id="projects-section">
+            <h2 id="project-section-title">My projects</h2>
+            <div id="projects-content-div" class="content-div-class flex-container">
+                <div class ="project">
+                    <h3 class="project-title">Eryantis digital <a href="https://github.com/FerriAlessandro/ing-sw-2022-Ferri-Gabbini-Gaillet" title="See code on GitHub"><img class="logo" src="resources/logos/github-mark.png" alt="(see GitHub)"></a></h3>
+                    <p>Eryantis digital is the transposition as videogame of the boardgame Eryantis by Cranio Creations.</p>
+                    <p>It was developed by two friends and I as a semester project at Politecnico di Milano.</p>
+                    <p>The game can be self-hosted and played by up to 3 people over an internet or LAN connection by means of a graphical interface or via command line.</p>
+                    <br>
+                    <img class="project-image" src="resources/img/projects/Eryantis-gui.png" title="GUI during piece movement">
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Navigation and Attitude System</h3>
+                    <p>The Navigation and Attitude System of the <a href="https://skywarder.eu/blog/pyxis-en/">Pyxis rocket</a> is responsible for real-time calculation of the rocket's attitude using data from the on-board sensors.</p>
+                    <p>This data is then used to perform altitude control and is trasmitted to the ground station via an array of antennas to allow for flight monitoring.</p>
+                    <p>The estimation is done using a Multiplicative Extended Kalman Filter containing a lightweight rocket model.</p>
+                    <p>The same system is algorithm is used on the guided payload to feed information to the autonomous guidance system.</p>
+                    <p>You can see a (now old-ish) version of the system in action <a href="https://www.youtube.com/watch?v=15U2QjJIRWA&ab_channel=SkywardExperimentalRocketry">here</a>, and a full flight with the resulting telemetry <a href="https://www.youtube.com/watch?v=n5FCOSZ5WkA&ab_channel=SkywardExperimentalRocketry">here</a>.</p>    
+                    <br>
+                    <img class="project-image" src="resources/img/projects/NAS_vertvel.jpg" title="Estimated vertical speed during flight">
+                    <br>
+                    <img class="project-image" src="resources/img/projects/NAS_altitude.jpg" title="Estimated altitude during flight">
+                    <br>
+                    <img class="project-image" src="resources/img/projects/NAS_horpos.jpg" title="Estimated position during flight">
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Sustainable taxiing</h3>
+                    <p>Project focusing on the conceptualization and requirement definition for a sustainable taxiing system based on hybrid towing vehicles including, but not limited to, the drafting of a ConOps document and a User Requirement Document.</p>
+                    <p>A safety analyisis was also performed using both System Theoretic Process Analyisis and Functional Hazard Assessment methodologies.</p>
+                    <br>
+                    <img class="project-image" src="resources/img/projects/LETS_controlStructure.png" title="Hierarchical control structure">
+                    <br>
+                    <img class="project-image" src="resources/img/projects/LETS_bowtie.png" title="Bowtie diagram for runway incursion scenario">
+                </div>  
+                <div class="project">
+                    <h3 class="project-title">Can a PC diagnose diabetes?</h3>
+                    <p>A project presented to the <a href="https://secure.youthscience.ca/virtualcwsf/projectdetails.php?switchlanguage=en&id=6323&One=">Canada Wide Science Fair</a> in 2019, thanks to a delegation award sponsored by Doctors Manitoba, after winning the prize as <em>Best biological science individual project</em> award sponsored by Bayer Canada and the <em>Canadian Medical Biological Engineering Society Certification of Appreciation</em> award at the provincial level. </p>
+                    <p>This project focused on applying artificial intelligence algorithms to link factors to disease and create a model useful for an initial and cost effective population-wide screening for diabetes.</p>
+                    <p>In particular it used data from the National Health And Nutrition Examination Survey by the CDC to create a 10-factor predictive model.</p>
+                    <br>
+                    <img class="project-image" src="resources/img/projects/Poster cwsf Def_page-0001.jpg">
+                    <br>
+                    <img class="project-image" src="resources/img/projects/Poster cwsf Def_page-0002.jpg">
+                </div>  
+                <div class="project">
+                    <h3 class="project-title">Personal website <a href="https://github.com/aggaillet/aggaillet.github.io" title="See code on GitHub"><img class="logo" src="resources/logos/github-mark.png" alt="(see GitHub)"></a></h3>
+                    <p>The website you are currently on is one of my smaller projects, born as a way to develop my presence on the web and showcase my work and passions.</p>
+                    <p>It was also a challenge to myself to develop a webpage as simple but visually pleasing as possible all while communicating my two major interests: aerospace and software.</p>
+                    <br>
+                    <img class="project-image" src="resources/img/projects/Website.png">
+                </div>
+                <div class="project" style="margin-left: 6.2vh;">
+                    <h3 class="project-title">What the future holds <a href="https://www.linkedin.com/in/ag-gaillet/" title="Contact me on LinkedIn" style="align-content: right;"><img class="logo" src="resources/logos/In-Blue-Logo.png" alt="(see LinkedIn)"></a></h3>
+                    <p>Surprises coming soon...</p>
+                    <br><br>
+                    <p style="text-align: center;"><em>“The future belongs to those who believe in the beauty of their dreams.”</em>
+                    <p style="text-align: right;">Eleanor Roosevelt</p></p>
+                    <br><br>
+                    <img class="project-image" src="resources/stock/pexels-nikolai-ulltang-572470-2_1.jpg">
+                </div>
+            </div>  
+        </div>
+
+
+        <!-- FOOTER -->
+        <div id="footer">
+            <div id="copyright">
+                <h5 id="copyText">&#169; </h5>
+                <script> document.getElementById("copyText").innerHTML = "Angelo G. Gaillet &#169 " + new Date().getFullYear(); </script>
+            </div>
+            <div id="privacy-div">
+                <a id="privacy-link" href="privacy-policy.html">Privacy Policy</a>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> <!-- JQuery -->
+        <script src="navbar.js"></script>
+
+        <script language="Javascript">
+            window.onload=function(){
+            var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+            if (mobile) {
+                alert("This website is not yet optimized for mobile devices, I'm sorry :(");              
+            }
+          }
+        </script>        
+
+    </body>
+</html>
