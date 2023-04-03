@@ -1,11 +1,8 @@
-#projects-section {
-    padding-top: vh;
-}
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     direction: ltr;
+    padding-top: 0vh;
 }
   
 .project {
