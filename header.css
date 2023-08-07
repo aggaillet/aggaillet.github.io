@@ -7,15 +7,14 @@ html{
     width: 100vw;
     z-index: 99999;
     position: fixed;
-    margin: 0;
-    padding: 0;
+    background-color: var(--tertiary);
 }
 
 #navbar-row {
     position: fixed;
     top: 0;
     margin: 0;
-    padding-top: 4vh;
+    padding-top: 0.5vh;
     padding-left: 0;
     background-color: transparent;
 }
@@ -24,7 +23,8 @@ html{
     float:right;
     top: 0;
     margin: 0;
-    padding-top: 4vh;
+    padding-top: 0.5vh;
+    padding-bottom: 2vh;
     padding-left: 0;
     padding-right: 7vh;
     background-color: transparent;
